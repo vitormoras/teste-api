@@ -3,7 +3,11 @@ from django.http import HttpResponse
 
 
 def pag_home(request):
-    return render(request, "home.html")
+    return render(
+        request,
+        "recipes/home.html",
+        context={"name": "Vitor"},
+    )
 
 
 def pag_contato(request):

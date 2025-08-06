@@ -168,6 +168,7 @@
 
         .recipe-list-item {
             max-width: 64rem;
+            height: fit-content;
         }
 
         .recipe-title-container {
@@ -215,6 +216,10 @@
 
         .recipe-meta-title {
             font-size: 1.6rem;
+        }
+
+        .preparations-step {
+            padding: var(--spacing-gutter-medium);
         }
 
         .recipe-footer a {
